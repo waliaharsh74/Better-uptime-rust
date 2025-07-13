@@ -1,11 +1,10 @@
-pub struct Store{
 
-}
-impl Store{
-    pub fn create_user(&self){
 
-    }
-    pub fn create_website(&self){
-        
-    }
-}
+
+
+pub mod schema;
+pub mod config;
+pub mod store;
+pub mod models;
+
+
